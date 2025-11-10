@@ -1205,7 +1205,7 @@ UserInputService.InputBegan:Connect(function(input, processed)
 end)
 
 -- ===== THÊM NÚT SPAM WALL COMBO =====
-makeToggle("Spam Wall Combo", function(state)
+makeToggle("Spam Wall Aura", function(state)
     toggleWallCombo(state)
     print("Spam Wall Combo:", state and "ON" or "OFF")
 end)
